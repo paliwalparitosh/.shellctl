@@ -24,3 +24,18 @@ alias tti='terraform init'
 alias tta='terraform apply -auto-approve'
 # terraform destory with auto-approve
 alias ttd='terraform destroy -auto-approve'
+
+# Zip Dir using git .gitignore
+alias gitzip="git archive HEAD -o"
+
+# Git
+alias gs="git status"
+alias ga="git add"
+alias gaa="git add ."
+alias gc="git commit -m"
+
+# Enter a newline after each output
+PS1="\n\u@\h \W\\$ "
+
+# Debug bash Script with more info
+export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
