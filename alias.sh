@@ -16,6 +16,8 @@ alias gg='egrep'
 # refresh shell
 alias rr='bash --login'
 
+# terraform format
+alias tf='terraform fmt'
 # terraform plan
 alias ttp='terraform plan'
 # terrafom init
