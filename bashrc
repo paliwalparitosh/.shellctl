@@ -1,3 +1,6 @@
+# Import custom functions
+source ~/my-bash-setup/custom-commands.sh
+
 # Custom Alias
 
 # list all files including hidden ones
