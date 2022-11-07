@@ -38,7 +38,7 @@ alias gs="git status"
 alias ga="git add"
 alias gaa="git add ."
 alias gc="git commit -m"
-
+alias git-clean="git reset --hard; git clearn -fxd"
 # Enter a newline after each output
 PS1="\n\u@\h \W\\$ "
 
