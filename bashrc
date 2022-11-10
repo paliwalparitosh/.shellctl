@@ -3,6 +3,8 @@ source ~/my-bash-setup/custom-commands.sh
 
 # Custom Alias
 
+alias brc="vim ~/my-bash-setup/bashrc"
+
 # list all files including hidden ones
 alias lll="ls -lart"
 alias ll="ls -lrt"
@@ -38,7 +40,7 @@ alias gs="git status"
 alias ga="git add"
 alias gaa="git add ."
 alias gc="git commit -m"
-alias git-clean="git reset --hard; git clearn -fxd"
+alias git-clean="git reset --hard; git clean -fxd"
 # Enter a newline after each output
 PS1="\n\u@\h \W\\$ "
 
