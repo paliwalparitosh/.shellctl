@@ -3,7 +3,7 @@ source ~/my-bash-setup/custom-commands.sh
 
 # Custom Alias
 
-alias brc="vim ~/my-bash-setup/bashrc"
+alias aa="vim ~/my-bash-setup/bashrc"
 
 # list all files including hidden ones
 alias lll="ls -lart"
@@ -22,7 +22,7 @@ alias gg='egrep'
 alias rr='bash --login'
 
 # terraform format
-alias tf='terraform fmt'
+alias ttf='terraform fmt'
 # terraform plan
 alias ttp='terraform plan'
 # terrafom init
@@ -31,11 +31,16 @@ alias tti='terraform init'
 alias tta='terraform apply -auto-approve'
 # terraform destory with auto-approve
 alias ttd='terraform destroy -auto-approve'
+# terraform workspace
+alias ttw='terraform workspace select'
+
 
 # Zip Dir using git .gitignore
 alias gitzip="git archive HEAD -o"
 
 # Git
+alias gb="git branch"
+alias gbb="git checkout"
 alias gs="git status"
 alias ga="git add"
 alias gaa="git add ."
