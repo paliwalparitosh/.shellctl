@@ -40,7 +40,8 @@ alias gitzip="git archive HEAD -o"
 
 # Git
 alias gb="git branch"
-alias gbb="git checkout"
+alias gbc="git checkout -b"
+alias gbs="git checkout"
 alias gs="git status"
 alias ga="git add"
 alias gaa="git add ."
