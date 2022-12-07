@@ -1,9 +1,11 @@
+MYBASHPATH="$HOME/.mybash"
+
 # Import custom functions
-source ~/my-bash-setup/custom-commands.sh
+source "$MYBASHPATH/custom-commands.sh"
 
 # Custom Alias
 
-alias aa="vim ~/my-bash-setup/bashrc"
+alias aa="vim ${MYBASHPATH}/bashrc"
 
 # list all files including hidden ones
 alias lll="ls -lart"
