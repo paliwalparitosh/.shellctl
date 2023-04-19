@@ -4,7 +4,7 @@ setgituser(){
 }
 
 getgituser(){
-    echo "Git user is $GITUSER_EMAIL"
+    echo "$GITUSER_EMAIL"
 }
 ## Set git profile
 gituser(){

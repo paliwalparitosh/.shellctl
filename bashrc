@@ -1,5 +1,8 @@
 MYBASHPATH="$HOME/.mybash"
 
+# Set Profile Purpose
+PROFILE_PURPOSE="NILL | Set at ~/.mybash/bashrc"
+
 # Import custom functions
 source "$MYBASHPATH/custom-commands.sh"
 
