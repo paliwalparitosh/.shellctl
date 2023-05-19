@@ -15,6 +15,7 @@ gituser(){
           -p)
               if test -r ~/.gitconfigPersonal; then
                   echo "switching to personal github user"
+                  cp ~/.gitconfig ~/.gitconfigWork # preserver changes
                   cp ~/.gitconfigPersonal ~/.gitconfig
                   setgituser
               else
@@ -25,6 +26,7 @@ gituser(){
           -w) 
               if test -r ~/.gitconfigWork; then
                   echo "switching to work bitbucket user"
+                  cp ~/.gitconfig ~/.gitconfigPersonal
                   cp ~/.gitconfigWork ~/.gitconfig
                   setgituser
               else
